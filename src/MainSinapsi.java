@@ -2,6 +2,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 import view.LoginController;
 
@@ -29,7 +30,7 @@ public class MainSinapsi extends Application {
         try {
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(MainSinapsi.class.getResource("view/Login.fxml"));
-            AnchorPane login = loader.load();
+            BorderPane login = loader.load();
 
             Scene scene = new Scene(login);
             primaryStage.setScene(scene);
