@@ -1,4 +1,4 @@
-package view;
+package Sinapsi.view;
 
 public class StrategyController {
 }

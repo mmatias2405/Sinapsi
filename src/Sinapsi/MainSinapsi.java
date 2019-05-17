@@ -1,10 +1,11 @@
+package Sinapsi;
+
+import Sinapsi.view.LoginController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
-import view.LoginController;
 
 import java.io.IOException;
 
@@ -30,7 +31,10 @@ public class MainSinapsi extends Application {
         try {
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(MainSinapsi.class.getResource("view/Login.fxml"));
-            BorderPane login = loader.load();
+            AnchorPane login = loader.load();
+
+            LoginController controller = loader.getController();
+            controller.setMainApp(this);
 
             Scene scene = new Scene(login);
             primaryStage.setScene(scene);
