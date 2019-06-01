@@ -1,4 +1,4 @@
-package Sinapsi.view;
+package Sinapsi.controller;
 import Sinapsi.MainSinapsi;
 import javafx.fxml.FXML;
 import javafx.scene.image.Image;

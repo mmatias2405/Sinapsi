@@ -1,6 +1,6 @@
 package Sinapsi;
 
-import Sinapsi.view.LoginController;
+import Sinapsi.controller.LoginController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -30,11 +30,11 @@ public class MainSinapsi extends Application {
     public void showLogin() {
         try {
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(MainSinapsi.class.getResource("view/Login.fxml"));
+            loader.setLocation(MainSinapsi.class.getResource("view/LoginTela.fxml"));
             AnchorPane login = loader.load();
 
-            LoginController controller = loader.getController();
-            controller.setMainApp(this);
+            //LoginController controller = loader.getController();
+            //controller.setMainApp(this);
 
             Scene scene = new Scene(login);
             primaryStage.setScene(scene);
