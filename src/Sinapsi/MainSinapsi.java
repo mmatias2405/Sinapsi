@@ -1,6 +1,5 @@
 package Sinapsi;
 
-import Sinapsi.controller.LoginController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -12,6 +11,7 @@ import java.io.IOException;
 public class MainSinapsi extends Application {
 
     private Stage primaryStage;
+    private Stage secondStage;
 
     public static void main(String[] args) {
         launch(args);
@@ -45,4 +45,5 @@ public class MainSinapsi extends Application {
             e.printStackTrace();
         }
     }
+
 }
