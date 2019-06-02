@@ -13,7 +13,7 @@ public class BDConnectionMySQL extends BDConnection {
         this.driver = "com.mysql.cj.jdbc.Driver";
         this.porta = 3306;
         this.servidor = "db4free.net";
-        this.bd = "projetoInter";
+        this.bd = "projetointer";
         this.usuario = "intersi";
         this.senha = "jzU3J9CpQyKyXPb";
     }

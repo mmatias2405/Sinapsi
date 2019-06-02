@@ -18,22 +18,18 @@ public class LoginTelaController {
     private int i=0;
 
     @FXML
-    public void Login(ActionEvent e) {
-        //key = txtKeyLogin.getText();
-        System.out.println("teste aaaa2");
+    public void teste(ActionEvent e) {
         if(i==0) {
             try {
                 Connection con = (Connection) BDFactory.getConnection();
-                String sql = "INSERT INTO trader VALUES(1,1,5);";
+                String sql = "INSERT INTO Trader VALUES(1,1,5);";
                 Statement stm = (Statement) con.createStatement();
-                stm.executeUpdate(sql);
-                System.out.println(key);
+                stm.execute(sql);
+                txtKeyLogin.setText("logou");
             } catch (SQLException ex) {
-                System.out.println(key);
-                System.out.println(ex.getMessage());
-            }i++;
+                txtKeyLogin.setText("ERRO: " + ex.getMessage());
+            }
+            this.i++;
         }
-        System.out.println(key);
-    }
     }
 }
