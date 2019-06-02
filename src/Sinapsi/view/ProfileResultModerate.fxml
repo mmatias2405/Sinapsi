@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="561.0" prefWidth="813.0" style="-fx-background-color: #696969;" xmlns="http://javafx.com/javafx/8.0.191" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <GridPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="Perfil Moderado" textFill="WHITE" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Corbel" size="30.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnProfileModerateBack" mnemonicParsing="false" prefHeight="25.0" prefWidth="74.0" style="-fx-background-radius: 30;" text="Back" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Corbel" size="15.0" />
+               </font>
+            </Button>
+            <Label fx:id="btn" text="Você deve buscar investimentos que ofereçam maior retorno do que título públicos e renda fixa, porém, evite os que " textFill="WHITE" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP">
+               <font>
+                  <Font name="Corbel" size="16.0" />
+               </font>
+            </Label>
+            <Label text="podem ter muitas variações de valor como ações de companhias menores ou" textFill="WHITE" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <GridPane.margin>
+                  <Insets bottom="40.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Corbel" size="16.0" />
+               </font>
+            </Label>
+            <Label text="fundos de investimento muito agressivos." textFill="WHITE" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <GridPane.margin>
+                  <Insets left="30.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Corbel" size="16.0" />
+               </font>
+            </Label>
+            <Label text="Alocação Sugerida:" textFill="WHITE" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="TOP">
+               <GridPane.margin>
+                  <Insets right="561.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Corbel" size="16.0" />
+               </font>
+            </Label>
+            <Label text="40% em investimentos conservadores (títulos pós fixados, CDBs e fundos que buscam superar a inflação)" textFill="WHITE" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Corbel" size="16.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="5.0" top="40.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="30% em investimentos arriscados (bolsa de valores, fundos que buscam superar o Ibovespa)" textFill="WHITE" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Corbel" size="16.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="30.0" right="90.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="30% em investimentos moderados (fundos imobiliários, fundos que buscam superar o CDI)" textFill="WHITE" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="Corbel" size="16.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets right="95.0" top="5.0" />
+               </GridPane.margin>
+            </Label>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>
