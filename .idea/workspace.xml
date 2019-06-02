@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Sinapsi/controller/EscolherEstratgController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sinapsi/controller/GraficoTelaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sinapsi/controller/LoginTelaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sinapsi/controller/LoginTelaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sinapsi/model/BDConnectionMySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sinapsi/model/BDConnectionMySQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sinapsi/view/EscolherEstratgTela.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sinapsi/view/EscolherEstratgTela.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sinapsi/view/GraficosTela.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sinapsi/view/GraficosTela.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sinapsi/view/LoginTela.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sinapsi/view/LoginTela.fxml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -65,57 +67,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Sinapsi/MainSinapsi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="250">
+              <caret line="32" column="76" selection-start-line="32" selection-start-column="76" selection-end-line="32" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sinapsi/model/BDConnectionMySQL.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sinapsi/model/BDFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Sinapsi/controller/LoginTelaController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sinapsi/view/LoginTela.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -125,6 +84,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -155,7 +115,6 @@
         <option value="$PROJECT_DIR$/src/Sinapsi/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/Sinapsi/view/Login.fxml" />
         <option value="$PROJECT_DIR$/src/controller/LoginTelaController.java" />
-        <option value="$PROJECT_DIR$/src/Sinapsi/MainSinapsi.java" />
         <option value="$PROJECT_DIR$/src/Sinapsi/model/Connection.java" />
         <option value="$PROJECT_DIR$/src/Sinapsi/model/BDConnection.java" />
         <option value="$PROJECT_DIR$/src/Sinapsi/model/BDFactore.java" />
@@ -165,6 +124,12 @@
         <option value="$PROJECT_DIR$/src/Sinapsi/view/LoginTela.fxml" />
         <option value="$PROJECT_DIR$/src/Sinapsi/model/BDConnectionMySQL.java" />
         <option value="$PROJECT_DIR$/src/Sinapsi/controller/LoginTelaController.java" />
+        <option value="$PROJECT_DIR$/src/Sinapsi/view/ProfileResultConservative.fxml" />
+        <option value="$PROJECT_DIR$/src/Sinapsi/view/GraficosTela.fxml" />
+        <option value="$PROJECT_DIR$/src/Sinapsi/controller/GraficoTelaController.java" />
+        <option value="$PROJECT_DIR$/src/Sinapsi/view/EscolherEstratgTela.fxml" />
+        <option value="$PROJECT_DIR$/src/Sinapsi/controller/EscolherEstratgController.java" />
+        <option value="$PROJECT_DIR$/src/Sinapsi/MainSinapsi.java" />
       </list>
     </option>
   </component>
@@ -186,7 +151,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -206,10 +170,32 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Sinapsi" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Sinapsi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sinapsi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Sinapsi" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sinapsi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sinapsi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Sinapsi" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sinapsi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sinapsi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Sinapsi" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -351,10 +337,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1554" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.17700455" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.123159304" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -363,7 +349,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32908162" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5368249" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35076532" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.06122449" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -415,23 +401,11 @@
     <entry file="file://$PROJECT_DIR$/resources/images/loginimg.png" />
     <entry file="file://$PROJECT_DIR$/src/Sinapsi/view/Strategy.fxml" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/javafx-src.zip!/com/sun/glass/ui/win/WinApplication.java" />
-    <entry file="file://$PROJECT_DIR$/src/Sinapsi/view/GraficosTela.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="15" column="213" selection-start-line="15" selection-start-column="206" selection-end-line="15" selection-end-column="213" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Sinapsi/view/Login.fxml" />
     <entry file="file://$PROJECT_DIR$/src/Sinapsi/view/user.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sinapsi/controller/StrategyController.java" />
-    <entry file="file://$PROJECT_DIR$/src/Sinapsi/view/EscolherEstratgTela.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Sinapsi/controller/LoginController.java" />
     <entry file="file://$PROJECT_DIR$/src/Sinapsi/model/BDConnection.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -442,26 +416,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sinapsi/controller/Principal.java" />
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_144/javafx-src.zip!/javafx/fxml/FXMLLoader.java" />
-    <entry file="file://$PROJECT_DIR$/src/Sinapsi/MainSinapsi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sinapsi.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sinapsi/view/LoginTela.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sinapsi/model/BDFactory.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -472,18 +428,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sinapsi/model/BDConnectionMySQL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="27" />
+        <state relative-caret-position="179">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sinapsi/view/Questionario4.fxml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sinapsi/view/ProfileResultConservative.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="82" lean-forward="true" selection-start-line="18" selection-start-column="82" selection-end-line="18" selection-end-column="82" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sinapsi/controller/EscolherEstratgController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sinapsi/view/GraficosTela.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="292" selection-start-line="15" selection-start-column="292" selection-end-line="15" selection-end-column="292" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sinapsi/view/EscolherEstratgTela.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="293" selection-start-line="15" selection-start-column="293" selection-end-line="15" selection-end-column="293" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sinapsi/view/LoginTela.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sinapsi/controller/GraficoTelaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Sinapsi/controller/LoginTelaController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+        <state relative-caret-position="775">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sinapsi/MainSinapsi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="32" column="76" selection-start-line="32" selection-start-column="76" selection-end-line="32" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
