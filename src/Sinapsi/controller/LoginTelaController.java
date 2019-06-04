@@ -2,6 +2,7 @@ package Sinapsi.controller;
 
 import Sinapsi.model.BDFactory;
 import javafx.fxml.FXML;
+import javafx.scene.control.DatePicker;
 import javafx.scene.control.TextField;
 import javafx.scene.control.Button;
 import javafx.event.ActionEvent;
@@ -14,6 +15,11 @@ public class LoginTelaController {
     private Button btnLogin;
     @FXML
     private TextField txtKeyLogin;
+    @FXML
+    private DatePicker TimePicker;
+    @FXML
+    private TextField txtTime;
+
     private String key;
     private int i=0;
 

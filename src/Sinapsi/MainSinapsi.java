@@ -1,5 +1,6 @@
 package Sinapsi;
 
+import Sinapsi.controller.EscolherEstratgController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -30,7 +31,7 @@ public class MainSinapsi extends Application {
     public void showLogin() {
         try {
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(MainSinapsi.class.getResource("view/LoginTela.fxml"));
+            loader.setLocation(MainSinapsi.class.getResource("view/EscolherEstratgTela.fxml"));
             AnchorPane login = loader.load();
 
             //LoginController controller = loader.getController();

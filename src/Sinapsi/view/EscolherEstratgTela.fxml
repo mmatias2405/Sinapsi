@@ -2,7 +2,7 @@
 
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Separator?>
 <?import javafx.scene.control.TextArea?>
@@ -11,7 +11,6 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
-
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="641.0" prefWidth="864.0" style="-fx-background-color: #696969;" xmlns="http://javafx.com/javafx/8.0.191" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Sinapsi.controller.EscolherEstratgController">
    <children>
@@ -34,13 +33,15 @@
                   <Font name="Candara Italic" size="44.0" />
                </font>
             </Label>
-            <ChoiceBox prefHeight="25.0" prefWidth="222.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
-            <TextArea disable="true" prefHeight="321.0" prefWidth="656.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+            <TextArea fx:id="txtEstrategiaDescricao" editable="false" prefHeight="150.0" prefWidth="756.0" style="-fx-background-color: #ffffff;" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
                <GridPane.margin>
-                  <Insets bottom="25.0" top="25.0" />
+                  <Insets bottom="25.0" left="150.0" top="25.0" />
                </GridPane.margin>
+               <font>
+                  <Font size="20.0" />
+               </font>
             </TextArea>
-            <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="172.0" style="-fx-background-color: #159d00; -fx-background-radius: 30;" text="Confirmar" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+            <Button fx:id="btnConfirmarEstrategia" mnemonicParsing="false" prefHeight="32.0" prefWidth="172.0" style="-fx-background-color: #159d00; -fx-background-radius: 30;" text="Confirmar" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                <font>
                   <Font name="Candara Italic" size="25.0" />
                </font>
@@ -53,6 +54,20 @@
                   <Insets bottom="25.0" left="150.0" top="25.0" />
                </GridPane.margin>
             </Separator>
+            <TextArea fx:id="txtEstrategiaArea" editable="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="136.0" prefWidth="682.0" style="-fx-background-color: #ffffff;" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <GridPane.margin>
+                  <Insets bottom="25.0" right="638.0" top="25.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Corbel" size="20.0" />
+               </font>
+            </TextArea>
+            <Button fx:id="btnDescribeEstrategia" mnemonicParsing="false" onAction="#getValueCB" prefHeight="25.0" prefWidth="81.0" style="-fx-background-radius: 30;" text="Descrição" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <GridPane.margin>
+                  <Insets right="235.0" />
+               </GridPane.margin>
+            </Button>
+            <ComboBox fx:id="cbEstrategiasBox" prefWidth="150.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
          </children>
       </GridPane>
    </children>
