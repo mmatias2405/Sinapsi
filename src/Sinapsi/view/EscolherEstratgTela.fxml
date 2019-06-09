@@ -6,6 +6,7 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Separator?>
 <?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
@@ -33,7 +34,7 @@
                   <Font name="Candara Italic" size="44.0" />
                </font>
             </Label>
-            <TextArea fx:id="txtEstrategiaDescricao" editable="false" prefHeight="150.0" prefWidth="756.0" style="-fx-background-color: #ffffff;" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+            <TextArea fx:id="txtEstrategiaDescricao" editable="false" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="635.0" style="-fx-background-color: #ffffff;" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
                <GridPane.margin>
                   <Insets bottom="25.0" left="150.0" top="25.0" />
                </GridPane.margin>
@@ -41,7 +42,7 @@
                   <Font size="20.0" />
                </font>
             </TextArea>
-            <Button fx:id="btnConfirmarEstrategia" mnemonicParsing="false" prefHeight="32.0" prefWidth="172.0" style="-fx-background-color: #159d00; -fx-background-radius: 30;" text="Confirmar" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+            <Button fx:id="btnConfirmarEstrategia" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="172.0" style="-fx-background-color: #159d00; -fx-background-radius: 30;" text="Confirmar" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                <font>
                   <Font name="Candara Italic" size="25.0" />
                </font>
@@ -54,7 +55,7 @@
                   <Insets bottom="25.0" left="150.0" top="25.0" />
                </GridPane.margin>
             </Separator>
-            <TextArea fx:id="txtEstrategiaArea" editable="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="136.0" prefWidth="682.0" style="-fx-background-color: #ffffff;" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+            <TextArea fx:id="txtEstrategiaArea" editable="false" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="150.0" prefWidth="149.0" style="-fx-background-color: #ffffff;" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
                <GridPane.margin>
                   <Insets bottom="25.0" right="638.0" top="25.0" />
                </GridPane.margin>
@@ -62,12 +63,20 @@
                   <Font name="Corbel" size="20.0" />
                </font>
             </TextArea>
-            <Button fx:id="btnDescribeEstrategia" mnemonicParsing="false" onAction="#getValueCB" prefHeight="25.0" prefWidth="81.0" style="-fx-background-radius: 30;" text="Descrição" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+            <ComboBox fx:id="cbEstrategiasBox" minHeight="-Infinity" minWidth="-Infinity" onAction="#getValueCB" onTouchPressed="#getValueCB" prefHeight="25.0" prefWidth="150.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <Label fx:id="lblTeste" prefHeight="77.0" prefWidth="148.0" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="2" GridPane.valignment="CENTER">
                <GridPane.margin>
-                  <Insets right="235.0" />
+                  <Insets left="5.0" />
                </GridPane.margin>
-            </Button>
-            <ComboBox fx:id="cbEstrategiasBox" prefWidth="150.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtHora" onAction="#initialize" prefHeight="25.0" prefWidth="675.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="100.0" right="300.0" />
+               </GridPane.margin>
+            </TextField>
          </children>
       </GridPane>
    </children>
