@@ -1,0 +1,11 @@
+model\BDFactory.class
+controller\DateFixController.class
+controller\LoginTelaController.class
+controller\PerfilController.class
+controller\EscolherEstratgController.class
+controller\QuestionarioController.class
+model\BDConnection.class
+controller\GraficoTelaController.class
+controller\acaoController.class
+model\BDConnectionMySQL.class
+Sinapsi\Sinapsi.class
