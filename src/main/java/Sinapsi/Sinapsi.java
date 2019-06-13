@@ -4,6 +4,9 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.chart.LineChart;
+import javafx.scene.chart.NumberAxis;
+import javafx.scene.chart.XYChart;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -30,12 +33,14 @@ public class Sinapsi extends Application {
     }
 
     public static void action(String acao)throws Exception {
+        /*
         paper = acao;
         FXMLLoader loader = new FXMLLoader(Sinapsi.class.getResource("../GraficosTela.fxml"));
         Parent root = loader.load();
         Scene scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
+        */
     }
     public static void data(LocalTime i, LocalTime f)throws Exception {
         inicio = i.toString();
@@ -114,10 +119,40 @@ public class Sinapsi extends Application {
     }
 
     public static void action(Object value) throws IOException {
-        paper = (String) value;
-        FXMLLoader loader = new FXMLLoader(Sinapsi.class.getResource("../GraficosTela.fxml"));
-        Parent root = loader.load();
-        Scene scene = new Scene(root);
+        Sinapsi.graphic();
+    }
+
+    public static void graphic() {
+        stage.setTitle("Sinapsi Trade");
+        //defining the axes
+        final NumberAxis xAxis = new NumberAxis();
+        final NumberAxis yAxis = new NumberAxis();
+        xAxis.setLabel("Mês");
+        //creating the chart
+        final LineChart<Number,Number> lineChart =
+                new LineChart<Number,Number>(xAxis,yAxis);
+
+        lineChart.setTitle("USD");
+        //defining a series
+        XYChart.Series series = new XYChart.Series();
+        series.setName("Saldo");
+        //populating the series with data
+        series.getData().add(new XYChart.Data(1, 10000));
+        series.getData().add(new XYChart.Data(2, 10230));
+        series.getData().add(new XYChart.Data(3, 10210));
+        series.getData().add(new XYChart.Data(4, 10356));
+        series.getData().add(new XYChart.Data(5, 12580));
+        series.getData().add(new XYChart.Data(6, 12070));
+        series.getData().add(new XYChart.Data(7, 11080));
+        series.getData().add(new XYChart.Data(8, 13200));
+        series.getData().add(new XYChart.Data(9, 13520));
+        series.getData().add(new XYChart.Data(10, 13020));
+        series.getData().add(new XYChart.Data(11, 13700));
+        series.getData().add(new XYChart.Data(12, 13700));
+
+        Scene scene  = new Scene(lineChart,870,633);
+        lineChart.getData().add(series);
+
         stage.setScene(scene);
         stage.show();
     }
